@@ -1,0 +1,56 @@
+{
+  "testUsers": [
+    {
+      "testCase": "Valid User Registration",
+      "firstName": "John",
+      "lastName": "Doe",
+      "streetAddress": "123 Main St",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "78701",
+      "phoneNumber": "5125551234",
+      "ssn": "123456789",
+      "username": "johndroe_r2024",
+      "password": "Secure@123"
+    },
+    {
+      "testCase": "Invalid Zip Code",
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "streetAddress": "456 Oak Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "123894",
+      "phoneNumber": "2125556789",
+      "ssn": "987654321",
+      "username": "alice_787smicth",
+      "password": "P@ss1w0rd"
+    },
+    {
+      "testCase": "Edge Case - Long Names",
+      "firstName": "Averylongfirstnamewithoutanyspaces",
+      "lastName": "Averylonglastnamewithoutanyspaces",
+      "streetAddress": "789 Pine Rd Apt 1002",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "phoneNumber": "4155559999",
+      "ssn": "456789123",
+      "username": "longere14890",
+      "password": "LongP@ssw0rdWithSpecialChars!"
+    },
+    {
+      "testCase": "Special Characters in Address",
+      "firstName": "José",
+      "lastName": "González",
+      "streetAddress": "1000 César Chávez St #200",
+      "city": "Los Ángeles",
+      "state": "CA",
+      "zipCode": "90012",
+      "phoneNumber": "2135554567",
+      "ssn": "789123456",
+      "username": "jose_gonalez",
+      "password": "J0sé@2024"
+    }
+  ]
+}

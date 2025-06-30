@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankLogin" thread-count="5" parallel="tests">
+    <parameter name="browser" value="chrome"></parameter>
+    <listeners>
+        <listener class-name="org.automation.Listeners.TestListeners"></listener>
+    </listeners>
+    <test name="Login">
+        <classes>
+            <class name="org.automation.Tests.TestFile">
+                </class>
+        </classes>
+    </test>
+</suite>
